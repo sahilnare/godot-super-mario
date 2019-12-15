@@ -24,6 +24,13 @@ config/name="Platformer"
 run/main_scene="res://src/Actors/Player.tscn"
 config/icon="res://icon.png"
 
+[layer_names]
+
+2d_physics/layer_1="player"
+2d_physics/layer_2="enemies"
+2d_physics/layer_3="coins"
+2d_physics/layer_4="world"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
